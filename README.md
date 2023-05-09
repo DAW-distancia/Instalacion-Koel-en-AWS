@@ -58,7 +58,10 @@ Sube una canción y comprueba que se puede reproducir.
 
 ### 4. Configurar apache
 
-Si ves que el servidor de pruebas ya funciona correctamente, haz que la web se vea usando apache (puerto 80). Configura el `Virtualhost` correspondiente.
+Si ves que el servidor de pruebas ya funciona correctamente, haz que la web se vea usando apache (puerto 80). Configura las carpetas correspondientes. 
+
+Ten en cuenta que una aplicación `Laravel` usa el directorio `public` como raíz del sitio web y que ese sitio tiene un archivo `.htaccess` que redirige todas las peticiones a `index.php`. Ese directorio `public` tiene que tener autorización para usar un `.htaccess`.
+
 
 ### 5. Configurar el dominio
 
