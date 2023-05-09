@@ -5,7 +5,7 @@
 
 ## ¿Qué es Koel?
 
-[**Koel**](https://koel.dev/) es un servidor personal de música en streaming. Está escrito en `VueJS` en el frontend y `Laravel` en el backend.  
+[**Koel**](https://koel.dev/) es un servidor personal de música en streaming 🎶. Está escrito en `VueJS` en el frontend y `Laravel` en el backend.  
 
 ## Requisitos
 * https://koel.dev/#req
@@ -15,7 +15,7 @@
 
 > Lee la documentación de cómo se construye desde el código fuente. 
 
-## Instalación
+## Instalación 💻
 
 > Como hay tareas que duran varios minutos, aprovecha el tiempo para ir documentando.
 
@@ -65,6 +65,6 @@ Si ves que el servidor de pruebas ya funciona correctamente, haz que la web se v
 * Prepara el certificado SSL para el dominio (`certbot`) y configura apache para que use el certificado.
 * Haz que las conexiones vayan siempre por `https`. 
 
-### 6. Documentación
+## Documentación 📄
 Además de realizar la práctica debes documentarla. Crea un nuevo archivo `INSTALL.md` donde vas a ir documentando en `markdown` todos los pasos que sigues para la instalación. 
 
