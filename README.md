@@ -29,7 +29,7 @@
     * Contraseña de la base de datos
 > La base de datos puede estar instalada en local en EC2 o mejor si usas un servicio RDS
 
-### Ayudas:
+#### Ayudas 🆘:
 * Instalación apache y php: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2023.html
 * Instalación composer: https://getcomposer.org/download/
 * Instalación de nodejs (con dnf o yum)
