@@ -1,6 +1,7 @@
 # Instalacion Koel en AWS
 
-> El objetivo del ejercicio es instalar Koel usando recursos de AWS. Al final deberíamos de poder ver el servidor de música en streaming funcionando en `https://koel.<tudominio>`
+> El objetivo del ejercicio es instalar Koel usando recursos de AWS. Al final deberíamos de poder ver el servidor de música en streaming funcionando en `https://koel.<tudominio>` y documentar todo el proceso de instalación. 
+> Tendrás que mostrar en la documentación que `Koel` está instalado y funcionando. 
 
 ## ¿Qué es Koel?
 
