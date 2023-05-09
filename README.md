@@ -54,6 +54,8 @@ Si no sabes qué usuario ha creado por defecto, lo verás al intentar cambiar la
 
 Sube una canción y comprueba que se puede reproducir.
 
+> Avisa al profesor para que compruebe este paso.
+
 ### 4. Configurar apache
 
 Si ves que el servidor de pruebas ya funciona correctamente, haz que la web se vea usando apache (puerto 80). Configura el `Virtualhost` correspondiente.
@@ -64,6 +66,9 @@ Si ves que el servidor de pruebas ya funciona correctamente, haz que la web se v
 * Configura el DNS para que apunte a la instancia EC2 de Koel.
 * Prepara el certificado SSL para el dominio (`certbot`) y configura apache para que use el certificado.
 * Haz que las conexiones vayan siempre por `https`. 
+* Deja bien claro en el documento de instalacón el dominio que has usado para la instalación.
+
+> Avisa al profesor para que compruebe este paso.
 
 ## Documentación 📄
 Además de realizar la práctica debes documentarla. Crea un nuevo archivo `INSTALL.md` donde vas a ir documentando en `markdown` todos los pasos que sigues para la instalación. 
