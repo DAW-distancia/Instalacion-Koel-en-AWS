@@ -44,6 +44,9 @@ Si tienes errores al instalar con `composer install`, revisa los requisitos.
 
 Con `php artisan koel:init` se crean las tablas de la base de datos, se crean los usuarios por defecto y se compilan los assets y más recursos.
 
+### 2.b. Instalación precomplidada
+Si tienes problemas para la instalación (compilación de assets) en la máquina de AWS puedes probar a instalarlo desde una [versión pre-compilada](https://docs.koel.dev/#using-a-pre-compiled-archive)
+
 ### 3. Test del servidor
 Una vez instalado, comprueba que funciona correctamente. Usa el servidor de desarrollo de laravel, que por defecto usa el puerto 8000. Tendrás que abrir ese puerto en la instancia EC2 para poder acceder. 
 
@@ -76,3 +79,13 @@ Ten en cuenta que una aplicación `Laravel` usa el directorio `public` como raí
 ## Documentación 📄
 Además de realizar la práctica debes documentarla. Crea un nuevo archivo `INSTALL.md` donde vas a ir documentando en `markdown` todos los pasos que sigues para la instalación. 
 
+### Valoración 💯
+Valoraré los siguientes aspectos:
+* Creación de la instancia EC2 (1) (máquina, puertos, etc)
+* Instalación de los paquetes necesarios (1) (según requisitos de la documentación de koel)
+* Instalación de la base de datos (1) (RDS, permisos, base de datos incial, usuario , contraseña, etc)
+* Instalación de Koel (1) (descarga, compliación, configuración, etc)
+* Demo de funcionamiento con el servidor de pruebas (1) (canción subida, captura, etc)
+* Configuración de apache para http (1) (apache básico, configuración de virtualhost, etc)
+* Configuración de apache para https (1) (certificado, redirección, etc)
+* Documentación de la instalación en `INSTALL.md` en el repositorio propuesto (3) (markdown, capturas, etc)
