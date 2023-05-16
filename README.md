@@ -79,7 +79,7 @@ Ten en cuenta que una aplicación `Laravel` usa el directorio `public` como raí
 ## Documentación 📄
 Además de realizar la práctica debes documentarla. Crea un nuevo archivo `INSTALL.md` donde vas a ir documentando en `markdown` todos los pasos que sigues para la instalación. 
 
-### Valoración 💯
+## Valoración 💯
 Valoraré los siguientes aspectos:
 * Creación de la instancia EC2 (1) (máquina, puertos, etc)
 * Instalación de los paquetes necesarios (1) (según requisitos de la documentación de koel)
